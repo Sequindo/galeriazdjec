@@ -1,0 +1,132 @@
+body {
+	background-color:#75b1a9;
+}
+td, tr {
+	padding: 10px;
+	background-color:#4f6457;
+	border-color:#75b1a9;
+	font-family: Arial, Times, serif;
+	color:white;
+}
+th {
+	padding: 10px;
+	background-color:#d9b44a;
+	border-color:#75b1a9;
+}
+h2, p, h3, ul, li {
+	font-family: Arial, Times, serif;
+	color:white;
+}
+a {
+	font-family: Arial, Times, serif;
+	color:white;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+.nag {
+	text-align:center;
+}
+
+.kontener {
+	height:auto;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;	
+	font-family: Arial, Times, serif;
+	color:white;
+	border-right-style:double;
+	border-width: 5px;
+	border-color:#d9b44a;
+}
+.text {
+	padding-left:20px;
+}
+.dol {
+	padding:5px;
+}
+
+.efekt {
+	height:200px;
+	width:auto;
+	padding-left:20px;
+}
+.galeria {
+	height:90px;
+	width:80px;
+	float:left;
+	padding-left:20px;
+	opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.galeria:hover {
+	opacity:0.5;
+}
+
+#naglowek {
+	width:1000px;
+	height:150px;
+	border-bottom-style: double;
+	border-width: 5px;
+	border-color:#d9b44a;
+}
+#zdjecie { 
+	height:150px;
+	width:auto;
+	float:right;
+}
+#menu {
+	background-color:#d9b44a;
+	min-height:200px;
+	height:auto;
+	width:200px;
+	border:1px solid white;
+	float:left;
+	margin:20px;
+}
+#text {
+	float: left;
+	width: 740px;
+	min-height: 200px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#stopka {
+	border-top-style: double;
+	border-width: 5px;
+	border-color: #d9b44a;
+	clear:both;
+	min-height:30px;
+}
+#div1 {margin-left:20px;}
+#div2 {margin-left:20px;}
+#div3 {margin-left:20px;}
+#div4 {margin-left:20px;}
+
+@media screen and (max-width: 768px) {
+	table {display:none;}
+	.text {padding:0px;}
+	.kontener { width:auto; border:none; }
+	.efekt { width: 90%; height:auto;}
+	.galeria {width:90%; height:auto; padding:0px;}
+	#zdjecie {float:none;}
+	#kirk {width:90%; height:auto;}
+	#menu {width:90%; float:none; margin:0px;}
+	#naglowek {width:90%; height:auto; border:none;}
+	#text {width:90%; text-align:justify;}
+	#licznik {width:90%;}
+}
